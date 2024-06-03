@@ -92,9 +92,8 @@ footer {
   padding: 1rem;
   text-align: center;
 }
-
 .features {
-  display: flex;
+  margin: 40px 0;
 }
 
 .features h2 {
@@ -105,17 +104,19 @@ footer {
 .feature {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin-bottom: 40px;
 }
+
+.feature:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 .feature-image {
-  width: 50%;
   flex-basis: 50%;
-  overflow: hidden;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-image img {
@@ -131,7 +132,7 @@ footer {
 
 /* Alternating background colors for features */
 .feature:nth-child(odd) .feature-content {
-  background-color: #726d6d;
+  background-color: #f4f4f4;
   padding: 20px;
 }
 
@@ -139,7 +140,6 @@ footer {
   background-color: #e9e9e9;
   padding: 20px;
 }
-
 .about {
   background-color: #f4f4f4;
   padding: 40px;
