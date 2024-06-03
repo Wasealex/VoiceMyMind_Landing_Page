@@ -1,56 +1,19 @@
-/* Set up variables for colors, fonts, etc. */
-:root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --font-family: "Arial", sans-serif;
-}
-
-/* Global styles */
-body {
-  font-family: var(--font-family);
-  margin: 0;
-  padding: 0;
-}
-
-/* Container styles */
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-/* Header styles */
-header {
-  background-color: var(--primary-color);
-  padding: 1rem;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.hero {
+  background-image: url("../images/book5.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
   display: flex;
   justify-content: center;
-}
-
-nav li {
-  margin: 0 1rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Main content styles */
-main {
-  flex-grow: 1;
-  padding: 2rem;
-}
-
-.hero {
+  align-items: center;
   text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
 }
 
 .hero h1 {
@@ -63,26 +26,16 @@ main {
   margin-bottom: 2rem;
 }
 
-.hero img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto 2rem;
-}
-
-.hero .btn {
+.btn {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: #007bff;
+  color: white;
   text-decoration: none;
+  padding: 1rem 2rem;
   border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
-/* Footer styles */
-footer {
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+.btn:hover {
+  background-color: #0056b3;
 }
