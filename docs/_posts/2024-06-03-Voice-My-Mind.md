@@ -1,8 +1,6 @@
 ---
-
-layout: "post"
+layout: voice
 title: "welcome"
-
 ---
 
 welcome
