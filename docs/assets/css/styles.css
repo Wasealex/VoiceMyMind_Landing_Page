@@ -24,23 +24,33 @@ header {
   background-color: var(--primary-color);
   padding: 1rem;
 }
-
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-nav li {
-  margin: 0 1rem;
+nav ul li {
+  margin: 0 20px;
 }
 
-nav a {
-  color: #fff;
+nav ul li a {
   text-decoration: none;
-  font-weight: bold;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+section:nth-child(even) {
+  background-color: #f4f4f4;
 }
 
 /* Main content styles */
