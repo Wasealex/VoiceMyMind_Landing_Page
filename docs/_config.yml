@@ -21,11 +21,6 @@
 title: VoiceMyMind
 email: wasealex27@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Elevate your mindful journey with our intuitive journaling platform. 
-  Unlock the power of effortless self-expression, seamless dictation, 
-  and evocative imagery to chronicle your path to greater self-awareness 
-  and emotional well-being.
-
 domain: voicemymind.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://voicemymind.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,7 +28,7 @@ url: "https://voicemymind.github.io" # the base hostname & protocol for your sit
 github_username: Wasealex
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
