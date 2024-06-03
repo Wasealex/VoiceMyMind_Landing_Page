@@ -94,7 +94,7 @@ footer {
 }
 
 .features {
-  margin: 40px 0;
+  display: flex;
 }
 
 .features h2 {
@@ -105,19 +105,17 @@ footer {
 .feature {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-bottom: 40px;
 }
-
-.feature:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
 .feature-image {
+  width: 50%;
   flex-basis: 50%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .feature-image img {
@@ -133,7 +131,7 @@ footer {
 
 /* Alternating background colors for features */
 .feature:nth-child(odd) .feature-content {
-  background-color: #f4f4f4;
+  background-color: #726d6d;
   padding: 20px;
 }
 
