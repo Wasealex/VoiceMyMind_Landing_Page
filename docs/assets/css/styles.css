@@ -1,7 +1,49 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Hero Section Styles */
 .hero {
   height: 500px;
-  background-image: url("../images/book5.jpg");
-  background-color: aqua;
+  background-image: url("../images/cover-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,4 +82,12 @@
 
 .btn:hover {
   background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
