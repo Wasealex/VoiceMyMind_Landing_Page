@@ -93,21 +93,16 @@ footer {
   text-align: center;
 }
 
-.feature-title {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 .features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin: 40px 0;
 }
 
+.features h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .feature {
-  flex-basis: 48%;
   display: flex;
   align-items: center;
   margin-bottom: 40px;
@@ -137,12 +132,12 @@ footer {
 }
 
 /* Alternating background colors for features */
-.features > :nth-child(odd) .feature-content {
+.feature:nth-child(odd) .feature-content {
   background-color: #f4f4f4;
   padding: 20px;
 }
 
-.features > :nth-child(even) .feature-content {
+.feature:nth-child(even) .feature-content {
   background-color: #e9e9e9;
   padding: 20px;
 }
